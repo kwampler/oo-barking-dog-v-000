@@ -3,4 +3,10 @@ class Dog
     puts "woof!"
   end
   def name
+    @name = name
+  end
+  def name
+    "#{@name}".strip
+  end
+end
 
